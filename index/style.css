@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: auto;
     background-color: rgba(232, 250, 246,0.6);
@@ -25,6 +29,11 @@ header{
     display: inline-block;
     padding: 10px;
     font-size: larger;
+}
+
+section {
+    padding-top: 80px;
+    margin-top: -60px;
 }
 
 #page-top a{
